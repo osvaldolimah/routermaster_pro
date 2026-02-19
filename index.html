@@ -3,21 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Router Master - Download</title>
+    <title>Router Master Pro - O Estrategista das Rotas</title>
     <style>
-        body { font-family: sans-serif; background: #f4f4f4; text-align: center; padding: 50px; }
-        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; }
-        h1 { color: #FF6600; } 
-        .btn { background: #FF6600; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; margin-top: 20px; }
-        p { color: #666; }
+        /* Estilo inspirado nas cores que você usa no projeto */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: #fdfdfd; 
+            text-align: center; 
+            padding: 20px; 
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card { 
+            background: white; 
+            padding: 40px 20px; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+            max-width: 400px; 
+            width: 90%;
+            border-top: 8px solid #FF6600; /* Laranja Shopee */
+        }
+        h1 { color: #333; margin-bottom: 5px; font-size: 24px; }
+        .slogan { color: #FF6600; font-weight: bold; font-size: 14px; text-transform: uppercase; margin-bottom: 20px; display: block; }
+        p { color: #555; line-height: 1.6; }
+        .btn { 
+            background: #FF6600; 
+            color: white; 
+            padding: 18px 30px; 
+            text-decoration: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            display: inline-block; 
+            margin-top: 25px;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 4px 15px rgba(255, 102, 0, 0.3);
+        }
+        .btn:active { transform: scale(0.95); background: #e65c00; }
+        .version { font-size: 12px; color: #999; margin-top: 15px; }
+        .warning { 
+            background: #fff3e0; 
+            color: #e65100; 
+            padding: 10px; 
+            border-radius: 8px; 
+            font-size: 12px; 
+            margin-top: 25px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>📦 Router Master</h1>
-        <p>Olá, <b>Driver</b>! Baixe a versão oficial abaixo.</p>
-        <a href="routermaster.apk" class="btn">BAIXAR APP (APK)</a>
-        <p style="font-size: 12px; margin-top: 20px;">* Ao instalar, autorize "Fontes Desconhecidas".</p>
+        <h1>📦 Router Master Pro</h1>
+        <span class="slogan">O Estrategista das Rotas</span>
+        
+        <p>Olá, <b>Driver</b>!<br>Baixe agora a versão oficial para otimizar suas entregas.</p>
+        
+        <a href="https://github.com/osvaldolimah/routermaster_pro/releases/download/v1.4.0/routermaster.apk" class="btn">
+            BAIXAR APP (APK)
+        </a>
+        
+        <div class="version">Versão atual: v1.4.0</div>
+
+        <div class="warning">
+            <b>Dica de Instalação:</b><br>
+            Ao baixar, o Android pode pedir para autorizar "Fontes Desconhecidas". Pode permitir sem medo, é a segurança do sistema para apps instalados fora da Play Store.
+        </div>
     </div>
 </body>
 </html>
